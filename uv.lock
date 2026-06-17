@@ -269,7 +269,7 @@ requires-dist = [{ name = "nercone-kaede" }]
 
 [[package]]
 name = "nercone-kaede"
-version = "1.0.0"
+version = "2.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "async-lru" },
@@ -283,9 +283,9 @@ dependencies = [
     { name = "uvloop" },
     { name = "zstandard" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/05/98/03e89628c000583eaba1ce0e36174a6fa06c1a391d2bc50c56162b0f86e0/nercone_kaede-1.0.0.tar.gz", hash = "sha256:e0b107282b1510231ff10e27feecfcaedede8f7a223dc946f1da3e8c8021a4be", size = 53566, upload-time = "2026-06-17T09:40:25.633Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/51/fd/4c52e01cba76689b0196da2522f7a4edb79a92797f3b26255375876a82ac/nercone_kaede-2.0.0.tar.gz", hash = "sha256:babec9c2502e329d289cec2a539417259240b06ac992c4bd625f39fa14d2a946", size = 56295, upload-time = "2026-06-17T16:35:35.468Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ad/cb/a774c65c2b62175ee9ffaeb7831c1f4b063a0086e9d5eda2125f6c7b4b4b/nercone_kaede-1.0.0-py3-none-any.whl", hash = "sha256:eab708441c71939eb1a3e56d6a8f4cb8869519b76c50db526339a49b1f58b9a5", size = 66655, upload-time = "2026-06-17T09:40:26.83Z" },
+    { url = "https://files.pythonhosted.org/packages/de/74/581601e03e85a88378347453d5ad2f2367cd5f812a7f751c769e8e75cd85/nercone_kaede-2.0.0-py3-none-any.whl", hash = "sha256:1de10017d0240f8b7e89b547527e69c68565f53c5dd3ffbc5b732e8d5b485e29", size = 70260, upload-time = "2026-06-17T16:35:36.804Z" },
 ]
 
 [[package]]
