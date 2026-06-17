@@ -1,7 +1,9 @@
 import re
 import inspect
 from typing import Callable, Literal
-from kaede import Request, Response, WebSocket
+from kaede import Response, WebSocket
+
+from .models import Request
 from .responses import PlainTextResponse
 
 PARAM_RE = re.compile(r'\{(\w+)\}')
