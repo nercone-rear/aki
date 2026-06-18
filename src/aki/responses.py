@@ -35,7 +35,7 @@ class JSONResponse(Response):
 
 class FileResponse(Response):
     def __init__(self, path: os.PathLike | Path, *, status_code: int = 200, headers: Headers | None = None, content_type: str | None = None, compression: bool = True, minification: bool = False, file_range: tuple[int, int] | None = None):
-        self.body = path
+        self.body = str(path) if isinstance(path, Path) else path
         self.status_code = status_code
         self.headers = headers or Headers({})
         self.content_type = content_type
